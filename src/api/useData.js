@@ -10,6 +10,7 @@ export const useData = (query) => {
       params: {
         q: query,
         units: "metric",
+
         APPID: API_KEY,
       },
     });
